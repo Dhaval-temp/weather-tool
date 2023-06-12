@@ -38,7 +38,7 @@ def parse_weather(data):
         print(f"Wind Speed: {wind_speed} m/s")
     else:
         print(f"Error: {data['message']}")
-        
+
 
 # main function where argparse is used to get the city name from the user and call get_weather function to get weather_data which is later parsed by parse_weather
 def main():
